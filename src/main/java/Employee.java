@@ -4,14 +4,20 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/10/">Lab 10 Description</a>
  */
 public class Employee {
-
+    /**
+     * name.
+     */
     private String name;
+
+    /**
+     * manager.
+     */
     private String manager;
 
     /**
      * Constructor for initialization.
-     * @param name
-     * @param manager
+     * @param name.
+     * @param manager.
      */
     public Employee(final String name, final String manager) {
         this.name = name;
