@@ -56,7 +56,7 @@ public class EmployeeDatabase {
         if (employee.getManager() == null) {
             return 0;
         } else {
-           return 1+ countManagersAbove(findManager(employee));
+           return 1 + countManagersAbove(findManager(employee));
         }
 
     }
